@@ -1,0 +1,77 @@
+body {
+    padding-top: 8pc;
+}
+.dice_game{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.center_text {
+    text-align: center;
+}
+
+.center_text h6{
+    color: #088208;
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0px 0 30px 0 !important;
+}
+
+#current-player {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.dice-image{
+    position: relative;
+    top: 50px;
+}
+.dice-image img {
+    width: 200px;
+  }
+.player_1,.player_2{
+    text-align: center;
+}
+
+.player_1 h5,.player_2 h5{
+    font-weight: 900 !important;
+    font-size: 30px;
+    margin-bottom: 20px !important;
+}
+
+.player_1 .player_score,.player_2 .player_score{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.btn {
+    padding: 10px 30px;
+    border: none;
+    background: #818181;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+}
+
+.reset_btn {
+    text-align: center;
+    position: relative;
+    top: 7pc;
+}
+
+#reset {
+    padding: 10px 40px;
+    border: none;
+    background: #f77979;
+    font-size: 17px;
+    font-weight: 600;
+    color: #2a2a2a;
+}
+
+
+  .btn:active{
+    background-color:green;
+    outline: none;
+  }
+
